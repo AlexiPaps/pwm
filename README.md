@@ -4,6 +4,10 @@ A secure, client-side password manager built with **Rust (WebAssembly)** for enc
 
 This project is structured as a **monorepo**, containing the Rust encryption library, the Next.js web application, and utility scripts for building.
 
+## Try it out
+
+- **[`Live Demo`](https://pwm-delta.vercel.app/)**
+
 ## 📂 Monorepo Structure
 
 The project is organized into three main folders, each with its own `README.md` for detailed instructions:

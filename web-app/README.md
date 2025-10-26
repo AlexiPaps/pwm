@@ -5,6 +5,11 @@ All passwords are **encrypted locally** — no data ever leaves your browser.
 
 ---
 
+## Try it out
+
+- **[`Live Demo`](https://pwm-delta.vercel.app/)**
+
+
 ## ✨ Features
 
 - 🧠 **Client-side encryption** using Rust + AES-256-GCM (WASM)

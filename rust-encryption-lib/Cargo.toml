@@ -1,0 +1,14 @@
+[package]
+name = "rust_encryption_lib"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"] # needed for wasm-bindgen output
+
+[dependencies]
+wasm-bindgen = "0.2"
+aes-gcm = "0.10"                                        # AES-256-GCM authenticated encryption
+base64 = "0.21"                                         # for encoding ciphertext/nonce
+rand = "0.8.5"
+getrandom = { version = "0.2", features = ["js"] }      # secure randomness; 'js' helps for wasm
